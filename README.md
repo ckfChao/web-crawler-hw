@@ -11,3 +11,6 @@ It is a web crawler coding with python.
   ```
   - ```--start-date``` and ```--end-date``` will be in the format of ```[Year]-[month]-[day]```. For instance, ```2019-12-09```.
   - ```--output``` is the csv filename to save. For instance, ```output.csv```.
+# Intro
+  The program is a web crawler. It will fetch titles, dates and relative urls from tables in [https://www.csie.ntu.edu.tw/news/news.php?class=101](https://www.csie.ntu.edu.tw/news/news.php?class=101).
+  After that, It will fetch the contents from the relative urls. Finally, It will write the dates, titles and contents to the output file.
